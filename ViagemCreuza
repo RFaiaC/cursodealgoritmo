@@ -1,0 +1,9 @@
+algoritmo "ViagemCreuza"
+var
+   reais, dolares : real
+inicio
+   Escreva ("Quantos reais voce tem? R$")
+   Leia (reais)
+   dolares <- reais/5.62
+   Escreval ("Se você trocar os R$",reais, ", voce tera $",dolares)
+fimalgoritmo
