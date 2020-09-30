@@ -1,0 +1,11 @@
+algoritmo "Aniversário da Creuza"
+var
+   anoAtual, anoAniversario, velas : Inteiro
+inicio
+   Escreva ("Qual o ano em que estamos? ")
+   Leia (anoAtual)
+   Escreva ("Em qual ano voce nasceu? ")
+   Leia (anoAniversario)
+   velas <- (anoAtual - anoAniversario)
+   Escreval ("Voce precisa colocar", velas, " velas no seu bolo.")
+fimalgoritmo
