@@ -1,0 +1,9 @@
+algoritmo "Imposto Creuza"
+var
+   valor, imposto : Real
+inicio
+   Escreva ("Qual o valor total dos produtos? ")
+   Leia (valor)
+   imposto <- (valor*60)/100
+   Escreva ("O valor total de impostos a se pagar e R$",imposto)
+fimalgoritmo
