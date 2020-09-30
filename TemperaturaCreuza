@@ -1,0 +1,9 @@
+algoritmo "Temperatura para Creuza"
+var
+   F, C : Real
+inicio
+   Escreva ("Qual a temperatura atual nos EUA? ")
+   Leia (F)
+   C <- (5*F - 160)/9
+   Escreval ("A temperatura no Brasil seria de",C,"graus Celsius")
+fimalgoritmo
